@@ -1,6 +1,10 @@
 # IML24
 DATA11002 Introduction to Machine Learning (Autumn 2024) ~ Kaggle competition
 
+[Kaggle page](https://www.kaggle.com/competitions/iml24-term-project)
+
+[Instructions PDF]()
+
 ## Overview
 
 The term project is on the GeckoQ dataset, which has the atomic structures of 31,637 atmospherically relevant molecules resulting from pinene, toluene, and decane oxidation. The training set used in this competition is a subset of 26,637 molecules from the GeckoQ dataset. The test set in this competition is previously unpublished data, fresh from the LUMI supercomputer.
