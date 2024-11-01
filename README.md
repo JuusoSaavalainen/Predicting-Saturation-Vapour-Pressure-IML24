@@ -3,7 +3,7 @@ DATA11002 Introduction to Machine Learning (Autumn 2024) ~ Kaggle competition
 
 [Kaggle page](https://www.kaggle.com/competitions/iml24-term-project)
 
-[Instructions PDF]()
+[Instructions PDF](https://github.com/JuusoSaavalainen/IML24/blob/main/term_project_instructions.pdf)
 
 ## Overview
 
