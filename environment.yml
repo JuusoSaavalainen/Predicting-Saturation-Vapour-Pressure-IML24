@@ -17,3 +17,6 @@ dependencies:
     - optuna
     - optunahub
     - pytorch-tabnet
+    - cmaes
+    - scipy
+    - torch

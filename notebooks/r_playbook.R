@@ -5,10 +5,8 @@ if (!require("randomForest")) {
 library(randomForest)
 
 
-trainx <- read.csv("Data/train.csv")
+trainx <- read.csv("../Data/train.csv")
 
-# remove species column
-trainx <- trainx[,-11]
 
 rf_model <- randomForest(trainx[,3:26], trainx[,2], ntree=100, importance=TRUE)
 importance(rf_model)
@@ -33,7 +31,8 @@ feature_names <- c(
   "ether..alicyclic.", 
   "aldehyde", 
   "carboxylic.acid", 
-  "NumOfAtoms"
+  "NumOfAtoms",
+  "parentspecies"
 )
 
 # build random fores model with these features and target (log_pSat_Pa)
@@ -81,3 +80,10 @@ correlation_matrix <- cor(trainx[,c(feature_names, "log_pSat_Pa")])
 # Plot the correlation matrix
 library(corrplot)
 corrplot(correlation_matrix, method = "color")
+
+
+# plot each variable distribution
+par(mfrow=c(4,4))
+for (i in 1:length(feature_names)) {
+  plot(trainx[,feature_names[i]], trainx[,2], xlab = feature_names[i], ylab = "log_pSat_Pa")
+}
