@@ -1,7 +1,11 @@
 # IML24
 DATA11002 Introduction to Machine Learning (Autumn 2024) ~ Kaggle competition
 
+[Data Profiling HTML](https://github.com/JuusoSaavalainen/Predicting-Saturation-Vapour-Pressure-IML24/blob/main/EDA_base.html)
+
 [Solution report](https://github.com/JuusoSaavalainen/IML24/blob/main/reports/final_report_group74.pdf)
+
+![image](https://github.com/user-attachments/assets/a3f0eea1-5b4d-4009-9ad0-92115061b35a)
 
 ## Overview
 
