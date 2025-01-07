@@ -5,8 +5,6 @@ DATA11002 Introduction to Machine Learning (Autumn 2024) ~ Kaggle competition
 
 [Solution report](https://github.com/JuusoSaavalainen/IML24/blob/main/reports/final_report_group74.pdf)
 
-![image](https://github.com/user-attachments/assets/a3f0eea1-5b4d-4009-9ad0-92115061b35a)
-
 ## Overview
 
 The term project is on the GeckoQ dataset, which has the atomic structures of 31,637 atmospherically relevant molecules resulting from pinene, toluene, and decane oxidation. The training set used in this competition is a subset of 26,637 molecules from the GeckoQ dataset. The test set in this competition is previously unpublished data, fresh from the **LUMI** supercomputer.
